@@ -1,6 +1,5 @@
 
 # 📰 Code Manifestor Blogging Website
-**Website Link:** https://megablogspot.vercel.app
 
 Welcome to **Mega Blog**, a modern and robust platform designed for sharing concise and impactful blog posts across diverse topics and domains. Built with Appwrite for backend services, this platform is tailored to deliver a seamless blogging experience.
 
