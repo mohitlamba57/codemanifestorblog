@@ -2,6 +2,7 @@
   "name": "12blog-project",
   "private": true,
   "version": "0.0.0",
+  "proxy": "https://cloud.appwrite.io/v1/account",
   "type": "module",
   "scripts": {
     "dev": "vite",
