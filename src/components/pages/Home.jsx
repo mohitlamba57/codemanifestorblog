@@ -8,6 +8,7 @@ function Home() {
     appwriteService.getPosts().then((posts) => {
       if (posts) setPosts(posts.documents);
       setLoading(false);
+      console.log(posts);
     });
   }, []);
 
@@ -23,9 +24,9 @@ function Home() {
     );
   }
   return (
-    <div className="w-full py-8">
+    <div className="w-full py-8 mx-auto">
       <Container>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap flex-col lg:flex-row mx-auto">
           {posts.map((post) => (
             <div key={post.$id} className="p-2 w-1/4">
               <PostCard {...post} />

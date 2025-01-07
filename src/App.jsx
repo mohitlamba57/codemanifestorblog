@@ -29,7 +29,8 @@ function App() {
 
   return !loading ? (
     <div className="min-h-screen flex flex-wrap content-between bg-white">
-      <div className="w-full block">
+      <div className="block lg:hidden w-full mx-auto content-center">Website visible only for Desktop Users <br /> "🚧Under Construction for mobile devices🚧"</div>
+      <div className="w-full hidden lg:block">
         <Header />
         <main>
           <Outlet />
